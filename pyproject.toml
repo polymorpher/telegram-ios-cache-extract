@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-python-project"  # Replace with your project's name
+version = "0.1.0"           # Replace with your project's version
+description = "A short description of my project." # Replace with your project's description
+readme = "README.md"        # Optional: specify your README file
+requires-python = ">=3.8"   # Specify your project's Python version requirement
+
+# Add your project's dependencies here, for example:
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "iphone-backup-decrypt>=0.9.0"
+]
+
